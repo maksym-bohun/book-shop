@@ -1,0 +1,53 @@
+.hero {
+  background-image: url("./../../img/hero.jpg");
+  background-size: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4rem;
+  grid-column: 3/-3;
+  grid-row: 3/4;
+  color: #fff;
+  font-size: 2.4rem;
+}
+
+.description {
+  grid-column: 2/4;
+  grid-row: 5/-1;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.button {
+  grid-column: 3/6;
+  color: #fff;
+  grid-row: 3/4;
+}
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+  .hero {
+    background-image: url("./../../img/hero-mobile.jpg");
+    min-width: 1055px;
+    min-height: 1200px;
+    /* padding: 1rem; */
+    overflow-x: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .heading {
+    font-size: 4rem;
+    grid-column: 2/-2;
+    grid-row: 3/4;
+    color: #fff;
+    font-size: 2.4rem;
+  }
+}

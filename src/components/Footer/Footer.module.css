@@ -1,0 +1,31 @@
+.footer {
+  background-color: #0a1c28;
+  padding: 1.5rem;
+  color: #f7f0de;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 0.7rem;
+  text-align: center;
+  align-items: center;
+}
+
+.anchor:link,
+.anchor:visited {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.anchor:active,
+.anchor:hover {
+  cursor: pointer;
+}
+
+.social-networks {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 1rem;
+}

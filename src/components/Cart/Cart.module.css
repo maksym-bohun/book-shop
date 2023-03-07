@@ -1,0 +1,111 @@
+.block {
+  padding: 0.5rem 0.3rem;
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.close-icon:hover {
+  cursor: pointer;
+}
+
+.header {
+  font-size: 1.4rem;
+  margin: 0.5rem 0 2rem;
+  text-align: center;
+  color: rgb(37, 36, 36);
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  max-height: 25rem;
+  overflow-y: scroll;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.actions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  align-items: center;
+  border: 1px solid #f08c00;
+  background-color: #fef4e6;
+}
+
+.wrapper {
+  background-color: #fef4e6;
+  border: 1px solid #f08c00;
+  width: 98%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.actions {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.actions-wrapper span {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.total-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.actions button,
+.actions button:active {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  background-color: #f08c00;
+  border: 1px solid #f08c00;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.actions button:hover {
+  border: 1px solid #f08c00;
+  background-color: #f08c00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error-message {
+  text-align: center;
+  padding: 0 0 2rem 0;
+}
+
+.line {
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 2px solid #666666;
+}
+
+.feedback {
+  padding: 2rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 80%;
+  font-size: 1.8rem;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.feedback img {
+  height: 2.4rem;
+  width: 2.4rem;
+}

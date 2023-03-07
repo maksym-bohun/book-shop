@@ -1,0 +1,48 @@
+.item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 4fr 2fr 1fr;
+  align-items: center;
+  padding: 1rem 0 0 1rem;
+}
+
+.image {
+  width: 5rem;
+  border-radius: 5px;
+}
+
+.book-name {
+  grid-column: 2/4;
+}
+
+.amount-changer {
+  display: flex;
+  gap: 5px;
+}
+
+.amount-changer div {
+  /* border: 1px solid #666666; */
+  padding: 0.2rem 0.7rem;
+  font-size: 1.2rem;
+}
+
+.amount-changer img {
+  cursor: pointer;
+}
+
+.price {
+  grid-column: 5/-1;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.price:after {
+  content: "₴";
+  font-size: 1.2rem;
+  margin-left: 1px;
+}
+
+.line {
+  width: 95%;
+  margin: 1rem auto 1rem;
+  border-bottom: 1px solid rgb(130, 129, 129);
+}

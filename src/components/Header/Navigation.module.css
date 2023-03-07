@@ -1,0 +1,110 @@
+.navigation {
+  margin: 0 2rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  grid-column: 1/-1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navigation span,
+.navigation .amount {
+  font-size: 1.2rem;
+}
+
+.navigation div {
+  display: flex;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.navigation div:nth-child(1) {
+  cursor: inherit;
+}
+
+.logo {
+  display: flex;
+  margin-right: 10rem;
+  padding: 5px 7px;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.logo-icon {
+  height: 2.6rem;
+}
+
+.orange {
+  font-weight: 500;
+  padding: 3px 5px;
+  border-radius: 3px;
+  background-color: #f08c00;
+}
+
+.info {
+  gap: 5rem;
+}
+
+.navigation-fixed {
+  width: 100%;
+  position: fixed;
+  /* color: #000; */
+  background-color: #15232e;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  z-index: 10;
+}
+
+.navigation-fixed .logo {
+  font-weight: 500;
+  grid-column: 1/6;
+  margin-left: 1rem;
+}
+
+.navigation-fixed .info {
+  grid-column: 10/-1;
+}
+
+.amount {
+  display: inline;
+  background-color: #f08c00;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+  .navigation div div span {
+    display: flex;
+    cursor: pointer;
+    display: none;
+  }
+
+  .navigation div img {
+    height: 4.8rem;
+  }
+
+  .navigation div span {
+    font-size: 2.8rem;
+  }
+
+  .navigation div div img {
+    height: 4rem;
+  }
+
+  .navigation .amount {
+    display: inline;
+    background-color: #f08c00;
+    padding: 0.2rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    font-size: 2.4rem;
+  }
+
+  .navigation-fixed .logo span {
+    display: flex;
+    gap: 5px;
+  }
+}
