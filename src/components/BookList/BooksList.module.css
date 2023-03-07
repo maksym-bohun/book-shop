@@ -10,3 +10,18 @@
 .card {
   height: 100vh;
 }
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+  .list {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  .card {
+    height: 100vh;
+  }
+}

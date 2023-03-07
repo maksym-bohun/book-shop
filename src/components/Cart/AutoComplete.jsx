@@ -20,7 +20,6 @@ const AutoComplete = (props) => {
     const response = await fetch(
       "https://raw.githubusercontent.com/Medniy2000/ua_locations/master/json/ua_locations_10_11_2021.json"
     );
-    console.log(response);
     const data = await response.json();
     setSuggestions(
       [...data].filter(
@@ -32,7 +31,6 @@ const AutoComplete = (props) => {
   const chooseCityHandler = (e) => {
     setListClicked(true);
     setValue(e.target.textContent);
-    console.log(e.target.textContent);
     props.onGetCity(e.target.textContent);
     setListClicked(false);
     blurHandler();

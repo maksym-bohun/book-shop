@@ -63,7 +63,6 @@ const CartForm = (props) => {
   };
 
   const getCityHandler = (city) => {
-    console.log("CITY", city);
     setCity(city);
   };
 

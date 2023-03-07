@@ -107,3 +107,114 @@
     transform: translateY(10%);
   }
 }
+
+@media screen and (min-width: 330px) and (max-width: 500px) {
+  .card {
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    margin: 2rem;
+    transition: all 0.4s;
+    padding-bottom: 1rem;
+    animation: appearance 1s;
+  }
+
+  /* .card:hover {
+      cursor: pointer;
+      transform: scale(103%);
+    } */
+
+  .image {
+    width: 100%;
+  }
+
+  .availability-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    padding: 0 0.5rem 0 0;
+    align-items: center;
+  }
+
+  .heart:hover {
+    cursor: pointer;
+    transform: scale(101%);
+  }
+
+  .book-card:hover {
+    transform: translateY(-1%);
+    cursor: pointer;
+  }
+
+  .description {
+    height: 33%;
+    display: grid;
+    padding: 0 0.8rem;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .name {
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+    font-size: 1rem;
+    justify-self: left;
+  }
+
+  .author {
+    font-size: 1rem;
+    justify-self: left;
+    color: #4d4d4d;
+  }
+
+  .availability {
+    width: 50%;
+    height: 1rem;
+    display: inline-block;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+
+  .not-available:after {
+    content: "Немає в наявності";
+    color: rgb(172, 6, 6);
+  }
+
+  .available:after {
+    content: "В наявності";
+    color: #2f9e44;
+    font-size: 0.7rem;
+  }
+
+  .price {
+    text-align: left;
+    /* margin-top: 1rem; */
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(152, 7, 7);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .button {
+    grid-column: 3/-1;
+  }
+
+  .button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #d87e00;
+    height: 2rem;
+  }
+
+  .cart {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+
+  .heart {
+    height: 1.4rem;
+  }
+}
