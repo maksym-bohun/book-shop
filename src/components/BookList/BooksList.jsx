@@ -5,7 +5,7 @@ import classes from "./BooksList.module.css";
 
 const BookList = ({ bookArray }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [booksPerPage, setBooksPerPage] = useState(9);
+  const [booksPerPage, setBooksPerPage] = useState(12);
 
   const lastBook = currentPage * booksPerPage;
   const firstBook = lastBook - booksPerPage;

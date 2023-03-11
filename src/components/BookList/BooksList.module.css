@@ -7,22 +7,22 @@
   justify-items: center;
 }
 
-.card {
+/* .card {
   height: 100vh;
-}
+} */
 
 @media screen and (min-width: 330px) and (max-width: 500px) {
   .list {
-    width: 83%;
+    width: 92%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
+    grid-template-rows: 18%;
+    gap: 0.8rem;
     margin: 0 auto;
-    margin: 0;
     justify-items: center;
   }
 
   .card {
-    height: 100vh;
+    height: 80vh;
   }
 }

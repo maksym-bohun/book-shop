@@ -15,6 +15,7 @@
 
 .image {
   width: 100%;
+  height: 60%;
 }
 
 .availability-block {
@@ -111,60 +112,21 @@
 @media screen and (min-width: 330px) and (max-width: 500px) {
   .card {
     display: inline-block;
-    width: 80%;
-    height: 70%;
-    margin: 2rem 0;
+    width: 95%;
+    height: 85%;
+    margin: 2rem 0 0 0;
     transition: all 0.4s;
     padding-bottom: 1rem;
     animation: appearance 1s;
-  }
-
-  /* .card:hover {
-      cursor: pointer;
-      transform: scale(103%);
-    } */
-
-  .image {
-    width: 100%;
-  }
-
-  .availability-block {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.3rem;
-    padding: 0 0.5rem 0 0;
-    align-items: center;
-  }
-
-  .heart:hover {
-    cursor: pointer;
-    transform: scale(101%);
-  }
-
-  .book-card:hover {
-    transform: translateY(-1%);
-    cursor: pointer;
-  }
-
-  .description {
-    height: 33%;
-    display: grid;
-    padding: 0 0.8rem;
-    grid-template-rows: repeat(4, 1fr);
+    padding: 0;
   }
 
   .name {
-    display: flex;
-    justify-content: start;
-    font-weight: 500;
     font-size: 0.8rem;
-    justify-self: left;
   }
 
   .author {
     font-size: 0.7rem;
-    justify-self: left;
-    color: #4d4d4d;
   }
 
   .availability {
@@ -172,9 +134,9 @@
     height: 1rem;
     display: inline-block;
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     text-align: left;
   }
 
@@ -190,10 +152,7 @@
   }
 
   .price {
-    text-align: left;
-    /* margin-top: 1rem; */
-    font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: rgb(152, 7, 7);
     grid-template-columns: repeat(3, 1fr);
   }

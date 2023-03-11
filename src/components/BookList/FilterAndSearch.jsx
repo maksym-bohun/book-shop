@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MyInput from "./../../UI/Input/Input";
+import Input from "./../../UI/Input/Input";
 import Select from "./../../UI/Select/Select";
 import filterIcon from "./../../icons/filter.svg";
 
@@ -41,7 +41,7 @@ const FilterAndSearch = ({ filter, setFilter }) => {
           onClick={() => setSortIsIcon(false)}
         />
       )}
-      <MyInput
+      <Input
         text="Введіть назву книги"
         onChange={booksFilterHandler}
         value={filter.query}

@@ -58,28 +58,27 @@
   .container {
     position: relative;
     display: flex;
+    justify-content: center;
+    gap: 1.2rem;
     height: 1.8rem;
   }
 
   .container select {
-    font-size: 0.7rem;
-    border: 2px solid rgba(240, 140, 0, 0.7);
-    border-radius: 5px;
-    left: 4%;
-    width: 21%;
+    width: 24%;
+    font-size: 0.8rem;
   }
 
   .container img {
     background-color: #f2981a;
     border-radius: 7px;
-    left: 10%;
   }
 
   .container img,
   .container select {
     height: 100%;
-    padding: 2px;
-    position: absolute;
+    left: 0;
+    padding: 4px 6px;
+    position: unset;
     align-self: center;
     animation: selector 0.5s;
   }
@@ -92,17 +91,18 @@
 
   .container input {
     display: inline;
-    width: 50%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    width: 67%;
+    margin: 0;
+    transform: none;
     font-size: 0.8rem;
+    transition: all 0.5s;
   }
 
   .container.with-selector input {
     display: inline;
-    width: 46%;
-    margin-left: 52%;
-    transform: translateX(-50%);
+    width: 51%;
+    margin: 0;
+    transform: none;
   }
 
   .container img:hover {

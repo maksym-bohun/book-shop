@@ -39,8 +39,8 @@ const BookCard = ({ book }) => {
   }, [addToCart, removeFromCart]);
 
   const bookName =
-    book.bookName.length > 23
-      ? book.bookName.slice(0, 23) + "..."
+    book.bookName.length > 21
+      ? book.bookName.slice(0, 21) + "..."
       : book.bookName;
 
   return (
