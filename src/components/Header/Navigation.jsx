@@ -38,7 +38,7 @@ const Header = (props) => {
       <div className={classes.info}>
         <div>
           <img className={classes.icon} alt="phone icon" src={phoneIcon} />
-          <span>+380 (12) 345 6789</span>
+          <span className={classes.number}>+380 (12) 345 6789</span>
         </div>
 
         <div onClick={props.onOpenCart}>

@@ -45,6 +45,7 @@ const FilterAndSearch = ({ filter, setFilter }) => {
         text="Введіть назву книги"
         onChange={booksFilterHandler}
         value={filter.query}
+        className={classes.input}
       />
     </div>
   );

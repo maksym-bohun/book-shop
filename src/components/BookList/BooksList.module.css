@@ -13,11 +13,12 @@
 
 @media screen and (min-width: 330px) and (max-width: 500px) {
   .list {
-    width: 90%;
+    width: 83%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0;
     margin: 0 auto;
+    margin: 0;
     justify-items: center;
   }
 

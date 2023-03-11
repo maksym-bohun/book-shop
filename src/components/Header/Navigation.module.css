@@ -158,4 +158,8 @@
   .icon {
     height: 1rem;
   }
+
+  .number {
+    display: none;
+  }
 }

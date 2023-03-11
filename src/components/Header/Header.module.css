@@ -33,7 +33,7 @@
 @media screen and (min-width: 330px) and (max-width: 500px) {
   .hero {
     background-image: url("./../../img/hero-mobile.jpg");
-    background-size: 180%;
+    background-size: 170%;
     background-position: center 0;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -41,6 +41,7 @@
     text-align: center;
     background-repeat: no-repeat;
     font-size: 1rem;
+    /* height: 100vh; */
   }
 
   .heading {
