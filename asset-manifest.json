@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/book-shop/static/css/main.79753ffa.css",
-    "main.js": "/book-shop/static/js/main.56c5c9fa.js",
+    "main.css": "/book-shop/static/css/main.1c20d8b3.css",
+    "main.js": "/book-shop/static/js/main.28afbe4c.js",
     "static/media/hero-mobile.jpg": "/book-shop/static/media/hero-mobile.821941429c355cf3c272.jpg",
     "static/media/hero.jpg": "/book-shop/static/media/hero.9ffa96a12dbf0175857c.jpg",
     "static/media/will_smith.jpg": "/book-shop/static/media/will_smith.8676c862255f5320743b.jpg",
@@ -59,11 +59,11 @@
     "static/media/heart-filled.svg": "/book-shop/static/media/heart-filled.e721e012f1e11543720fb9a3a6d7cbd4.svg",
     "static/media/heart.svg": "/book-shop/static/media/heart.e8d511dea0a0b81bcf0873b0c252ca28.svg",
     "static/media/check.svg": "/book-shop/static/media/check.d075c13c7f49a1886077f8a2fbf63fba.svg",
-    "main.79753ffa.css.map": "/book-shop/static/css/main.79753ffa.css.map",
-    "main.56c5c9fa.js.map": "/book-shop/static/js/main.56c5c9fa.js.map"
+    "main.1c20d8b3.css.map": "/book-shop/static/css/main.1c20d8b3.css.map",
+    "main.28afbe4c.js.map": "/book-shop/static/js/main.28afbe4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.79753ffa.css",
-    "static/js/main.56c5c9fa.js"
+    "static/css/main.1c20d8b3.css",
+    "static/js/main.28afbe4c.js"
   ]
 }
