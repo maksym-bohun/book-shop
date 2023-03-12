@@ -36,12 +36,14 @@ const Advantages = () => {
         </li>
       </ul>
       <div className={classes.deliveries}>
-        <img className={classes.users} src={user1} alt="Portrait of man" />
-        <img className={classes.users} src={user2} alt="Portrait of woman" />
-        <img className={classes.users} src={user3} alt="Portrait of woman" />
-        <img className={classes.users} src={user4} alt="Portrait of man" />
-        <img className={classes.users} src={user5} alt="Portrait of woman" />
-        <img className={classes.users} src={user6} alt="Portrait of man" />
+        <div>
+          <img className={classes.users} src={user1} alt="Portrait of man" />
+          <img className={classes.users} src={user2} alt="Portrait of woman" />
+          <img className={classes.users} src={user3} alt="Portrait of woman" />
+          <img className={classes.users} src={user4} alt="Portrait of man" />
+          <img className={classes.users} src={user5} alt="Portrait of woman" />
+          <img className={classes.users} src={user6} alt="Portrait of man" />
+        </div>
         <p>
           Більше <span>1000</span> доставок по Україні
         </p>
